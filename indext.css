@@ -1,0 +1,14 @@
+p {
+    color:green;
+}
+button {
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 15%;
+}
+
+img {
+    border-radius: 60%;
+
+}
