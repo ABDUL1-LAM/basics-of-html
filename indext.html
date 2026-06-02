@@ -2,13 +2,20 @@
 <html>
 <head>
     <title>MY FIRST PROJECT</title>
-    <link rel="stylesheet" href="indext.css">
+    <link rel="icon" type="image/x-icon"
+    href="downloadicon.ico">
+
+    <link href="indext.css" rel="stylesheet"/>
+    
 </head>
 <body>
+  <! -- centered a text here -- >
     <center>
-        <h1>frontend</h1>
+        <h1 style="color: blue; font-family: monospace;">frontend</h1>
 
     <p>HELLO WORLD! <b>i am lamidi abdullahi</b></p>
+    
+    
     <img src="download.jpg" alt="html" width="100px" height="100px"/>
  <br/>
  <input type="input" placeholder="username">
@@ -17,16 +24,44 @@
 <input type="password" placeholder="password">
 <br>
 <a href="food.html">
-  <button>sign up</button>
+  <button>
+    <a href="food.html" target="_blank" >sign up
+    </a>
+    </button>
 </a> 
-  <button>sign in </button>
-
+<a href="food.html">
+  <button class="button2">sign in</button>
+</a>
+<a href="mailto:abdullahilamidi16@gmail.com">send email</a>
 </center>
-
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+    <th>animal</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+    <td>fish</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+    <td>bruno</td>
+  </tr>
+  
+</table
 
 
 
     
 
 </body>
+<script>
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
 </html>
