@@ -1,10 +1,17 @@
+body {
+    background-image:url('download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 p {
     color:green;
 }
 button {
-    background-color:red;
+    background-color:rgb(34, 32, 32);
     color: white;
-    border: none;
+    border: black;
     border-radius: 15%;
 }
 
@@ -12,3 +19,13 @@ img {
     border-radius: 60%;
 
 }
+.button2{
+    background: rgb(37, 37, 39);
+    color: white;
+    border: solid;
+    border-radius: 15%;
+    
+
+}
+table, th, td {
+  border: 1px solid black

@@ -1,0 +1,39 @@
+
+.first {
+    background: #FFF4A3;
+    color: black;
+
+}
+
+.second{
+    background: firebrick;
+    color: beige;
+    
+
+}
+.third {
+    background: rgb(177, 164, 189);
+    color: rgb(1, 1, 32);
+    
+}
+
+
+.first,.second,.third, div{
+    width:33%;
+    display:inline-block;
+}
+
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+#myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
